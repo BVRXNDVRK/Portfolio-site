@@ -1,0 +1,101 @@
+/* FONTS */
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"),
+    url("Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Medium.woff") format("woff"),
+    url("Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"),
+    url("Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Bold.woff") format("woff"),
+    url("Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* STYLES */
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+.navbar {
+  border-bottom: 1px solid #828282;
+}
+
+.navbar-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  margin-top: 33px;
+  margin-bottom: 32px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  transition: color 0.4s;
+  color: #828282;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/* HERO */
+.designer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.designer-name {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 31px;
+  max-width: 123px;
+  font-family: Gilroy-Bold;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.info {
+  margin: 0;
+  margin-top: 100px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.language-switch {
+  margin: 0;
+  padding-top: 45px;
+  margin-top: 75px;
+  width: 65px;
+  height: 20px;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+
+.designer-photo {
+  margin-bottom: 104px;
+}
