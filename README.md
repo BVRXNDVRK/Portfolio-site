@@ -5,4 +5,4 @@
 - Html
 - Css
 - js
-- Normaliize.css
+- Normalize.css
