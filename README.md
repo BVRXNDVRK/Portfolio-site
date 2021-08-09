@@ -4,5 +4,5 @@
 ### Технологии в проэкте:
 - Html
 - Css
-- js
+- Js
 - Normalize.css
