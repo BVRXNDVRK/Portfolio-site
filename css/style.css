@@ -26,6 +26,17 @@
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 /* NAVBAR */
 .navbar {
   border-bottom: 1px solid #828282;
@@ -97,5 +108,123 @@
 }
 
 .designer-photo {
-  margin-bottom: 104px;
+  height: 388px;
+}
+
+/* CONTENT */
+.content {
+  margin-top: 104px;
+}
+
+.grey-background {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+/* ABOUT */
+.about-wrapper {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+
+.about-title {
+  margin-bottom: 18px;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.about-text-wrapper {
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-text {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+/* SKILLS */
+.skills-wrapper {
+  padding-top: 91px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.skills-title {
+  font-family: Gilroy-bold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 61px;
+}
+
+.skills-text {
+  display: block;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-bottom: 83px;
+}
+
+.programs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program-wrapper {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-image {
+  margin-bottom: 24px;
+}
+
+.program-name {
+  height: 27px;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 47px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PORTFOLIO */
+.portfolio-wrapper {
+  padding-top: 113px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 47px;
+}
+
+.project-name {
+  display: block;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #070707;
+  margin-top: 45px;
+  margin-bottom: 99px;
 }
